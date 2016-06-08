@@ -2,10 +2,9 @@ require 'haml'
 require 'sinatra'
 
 WORD_LISTS = {
-  things_we_like: ["lulz","insurrection","crisis","social war","zones of indistinction which need no justification","indifference"],
-  things_we_dont_like: ["activism","representation","humanism","totality","passivity","banality","fossilization of our desires","mobilization","impotentiality","normalization","absence"],
-  people_we_dont_like: ["the milieu","liberalism","the bureaucrats of revolt","anarcho-liberalism"],
-  things_we_do: ["desire","riot","occupy everything"],
+  things_we_like: ["dat boi","turtles"],
+  things_we_dont_like: ["no gf", "idk lmao"],
+  people_we_dont_like: ["normies","daddy-doms"],
   our_things: ["communes","multiplicities","encounters","becomings","zones of offensive opacity","desiring-bodies"],
   symbolic_things: ["burning dumpster","smashed window","moment of friendship","car set aflame","barricaded hallway"],
   things_we_do_to_things: ["destroy","shatter","negate","reject"],
