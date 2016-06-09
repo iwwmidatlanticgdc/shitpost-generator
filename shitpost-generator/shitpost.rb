@@ -14,7 +14,7 @@ WORD_LISTS = {
   describing_bad_things: ["het","not gay enough"],
   fancy_words: ["logic","structure","being","temporality","teleology"],
   happiness: ["oMFG ","aaaa"],
-  sadness: [":^(","): lmao"],
+  sadness: ["ugh","): lmao"],
   really: ["by any means necessary","with every weapon at our disposal","without looking back","at all costs"],
   making_things: ["articulation","construction","elaboration","setting forth","realization"],
   plans: ["plan","project","concept"],
@@ -80,9 +80,8 @@ def word(list_name)
   list.delete_at(rand(list.length)) || raise('FAIL')
 end
 
-get '/stylesheet.css' do
-  content_type 'text/css', :charset => 'utf-8'
-  sass :stylesheet
+get '/stylesheet.scss' do
+  content_type 'text/scss', :charset => 'utf-8'
 end
 
 get '/' do
