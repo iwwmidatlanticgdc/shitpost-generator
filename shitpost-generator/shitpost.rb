@@ -2,19 +2,19 @@ require 'haml'
 require 'sinatra'
 
 WORD_LISTS = {
-  things_we_like: ["dat boi","turtles"],
+  things_we_like: ["dat boi","turtles", "stuff", "all my friends uwu"],
   things_we_dont_like: ["no gf", "idk lmao"],
   people_we_dont_like: ["normies","daddy-doms"],
   our_things: ["tumblr","weird facebook"],
   neutral_things: ["uM Whatever", "¯\_(ツ)_/¯"],
-  things_we_do_to_things: ["destroy","shatter","negate","reject"],
+  things_we_do_to_things: ["FUCK THIS","fcuking leave byE BITCH"],
   things_we_dont_do: ["oegemium","apologize you shitlord"],
   how_we_do_things: ["in secret","without illusions","for once and for all","absolutely"],
   describing_good_things: ["gay","THE BEST"],
   describing_bad_things: ["het","not gay enough"],
   fancy_words: ["logic","structure","being","temporality","teleology"],
   happiness: ["oMFG ","aaaa"],
-  sadness: [":^(","): lmao"],
+  sadness: ["ugh","): lmao"],
   really: ["by any means necessary","with every weapon at our disposal","without looking back","at all costs"],
   making_things: ["articulation","construction","elaboration","setting forth","realization"],
   plans: ["plan","project","concept"],
@@ -80,9 +80,8 @@ def word(list_name)
   list.delete_at(rand(list.length)) || raise('FAIL')
 end
 
-get '/stylesheet.css' do
-  content_type 'text/css', :charset => 'utf-8'
-  sass :stylesheet
+get '/stylesheet.scss' do
+  content_type 'text/scss', :charset => 'utf-8'
 end
 
 get '/' do
