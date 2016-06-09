@@ -2,12 +2,12 @@ require 'haml'
 require 'sinatra'
 
 WORD_LISTS = {
-  things_we_like: ["dat boi","turtles"],
+  things_we_like: ["dat boi","turtles", "stuff", "all my friends uwu"],
   things_we_dont_like: ["no gf", "idk lmao"],
   people_we_dont_like: ["normies","daddy-doms"],
   our_things: ["tumblr","weird facebook"],
   neutral_things: ["uM Whatever", "¯\_(ツ)_/¯"],
-  things_we_do_to_things: ["destroy","shatter","negate","reject"],
+  things_we_do_to_things: ["FUCK THIS","fcuking leave byE BITCH"],
   things_we_dont_do: ["oegemium","apologize you shitlord"],
   how_we_do_things: ["in secret","without illusions","for once and for all","absolutely"],
   describing_good_things: ["gay","THE BEST"],
