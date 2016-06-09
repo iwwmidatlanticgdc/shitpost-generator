@@ -10,11 +10,11 @@ WORD_LISTS = {
   things_we_do_to_things: ["destroy","shatter","negate","reject"],
   things_we_dont_do: ["oegemium","apologize you shitlord"],
   how_we_do_things: ["in secret","without illusions","for once and for all","absolutely"],
-  describing_good_things: ["singular","immanent","inoperative","radical"],
-  describing_bad_things: ["homogenous","pathetic","compulsive"],
+  describing_good_things: ["gay","THE BEST"],
+  describing_bad_things: ["het","not gay enough"],
   fancy_words: ["logic","structure","being","temporality","teleology"],
-  happiness: ["oMFG ","ecstasy"],
-  sadness: ["misery","catastrophe"],
+  happiness: ["oMFG ","aaaa"],
+  sadness: [":^(","): lmao"],
   really: ["by any means necessary","with every weapon at our disposal","without looking back","at all costs"],
   making_things: ["articulation","construction","elaboration","setting forth","realization"],
   plans: ["plan","project","concept"],
@@ -23,7 +23,7 @@ WORD_LISTS = {
   fun_stuff: ["destruction","negation"],
   get_along: ["dialogue","criticism","sympathy"],
   go_away: ["scorn","contempt","derision"],
-  dont_do: ["refuse","neglect","fail"],
+  dont_do: ["lOSE IYTT"," um fuck it up"],
   preposition: ["on","towards"]
 }
 
