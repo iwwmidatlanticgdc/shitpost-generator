@@ -13,7 +13,7 @@ WORD_LISTS = {
   describing_good_things: ["singular","immanent","inoperative","radical"],
   describing_bad_things: ["homogenous","pathetic","compulsive"],
   fancy_words: ["logic","structure","being","temporality","teleology"],
-  happiness: ["joy","ecstasy"],
+  happiness: ["oMFG ","ecstasy"],
   sadness: ["misery","catastrophe"],
   really: ["by any means necessary","with every weapon at our disposal","without looking back","at all costs"],
   making_things: ["articulation","construction","elaboration","setting forth","realization"],
