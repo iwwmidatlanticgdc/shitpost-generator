@@ -4,7 +4,7 @@ require 'sinatra'
 WORD_LISTS = {
   things_we_like: ["dat boi","turtles", "stuff", "all my friends uwu"],
   things_we_dont_like: ["no gf", "idk lmao"],
-  people_we_dont_like: ["normies","daddy-doms"],
+  people_we_dont_like: ["normies","daddy-doms", "tumblrinas", "reddit users"],
   our_things: ["tumblr","weird facebook"],
   neutral_things: ["uM Whatever", "¯\_(ツ)_/¯"],
   things_we_do_to_things: ["FUCK THIS","fcuking leave byE BITCH"],
