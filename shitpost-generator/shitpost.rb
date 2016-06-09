@@ -6,7 +6,7 @@ WORD_LISTS = {
   things_we_dont_like: ["no gf", "idk lmao"],
   people_we_dont_like: ["normies","daddy-doms"],
   our_things: ["tumblr","weird facebook"],
-  neutral_things: ["uM Whatever"],
+  neutral_things: ["uM Whatever", "¯\_(ツ)_/¯"],
   things_we_do_to_things: ["destroy","shatter","negate","reject"],
   things_we_dont_do: ["oegemium","apologize you shitlord"],
   how_we_do_things: ["in secret","without illusions","for once and for all","absolutely"],
