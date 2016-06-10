@@ -80,8 +80,8 @@ def word(list_name)
   list.delete_at(rand(list.length)) || raise('FAIL')
 end
 
-get '/stylesheet.scss' do
-  content_type 'text/scss', :charset => 'utf-8'
+get '/stylesheet.css' do
+  content_type 'text/css', :charset => 'utf-8'
 end
 
 get '/' do
