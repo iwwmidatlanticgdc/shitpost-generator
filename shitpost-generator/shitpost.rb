@@ -1,5 +1,4 @@
 require 'haml'
-require 'sinatra'
 
 WORD_LISTS = {
   things_we_like: ["dat boi","turtles", "stuff", "all my friends uwu"],
@@ -88,7 +87,6 @@ get '/' do
   @lists=lists
   @title=title
   @sentences=[recognize,do_something,in_the,joke,break_things,this_call,whats_needed,every_what,necessary,symbols].shuffle
-  @pull_quote=@sentences[0]
   @shuffled_sentences=@sentences.shuffle
   @babble=@shuffled_sentences[0,4].join(" ")
   @more_babble=@shuffled_sentences[4..7].join(" ")
