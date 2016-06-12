@@ -1,0 +1,16 @@
+if [ "0" = "1" ]; then \
+		mkdir -p 'C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.8.rc3/ports/i686-pc-mingw32/zlib/1.2.8/bin'; \
+		cp -fp zlib1.dll 'C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.8.rc3/ports/i686-pc-mingw32/zlib/1.2.8/bin'; \
+		cp -fp libz.dll.a 'C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.8.rc3/ports/i686-pc-mingw32/zlib/1.2.8/lib'; \
+	fi
+cp -fp zlib.h 'C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.8.rc3/ports/i686-pc-mingw32/zlib/1.2.8/include'
+cp -fp zconf.h 'C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.8.rc3/ports/i686-pc-mingw32/zlib/1.2.8/include'
+cp -fp libz.a 'C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.8.rc3/ports/i686-pc-mingw32/zlib/1.2.8/lib'
+sed \
+		-e 's|@prefix@|/usr/local|g' \
+		-e 's|@exec_prefix@|/usr/local|g' \
+		-e 's|@libdir@|C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.8.rc3/ports/i686-pc-mingw32/zlib/1.2.8/lib|g' \
+		-e 's|@sharedlibdir@|C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.8.rc3/ports/i686-pc-mingw32/zlib/1.2.8/lib|g' \
+		-e 's|@includedir@|C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.8.rc3/ports/i686-pc-mingw32/zlib/1.2.8/include|g' \
+		-e 's|@VERSION@|'`sed -n -e '/VERSION "/s/.*"\(.*\)".*/\1/p' zlib.h`'|g' \
+		zlib.pc.in > 'C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/nokogiri-1.6.8.rc3/ports/i686-pc-mingw32/zlib/1.2.8/lib'/pkgconfig/zlib.pc
